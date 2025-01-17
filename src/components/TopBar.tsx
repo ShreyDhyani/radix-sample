@@ -17,6 +17,9 @@ const TopBar = () => {
         <TabNav.Link href="/sound" active={pathname === "/sound"}>
           Sound
         </TabNav.Link>
+        <TabNav.Link href="/button" active={pathname === "/button"}>
+          Button
+        </TabNav.Link>
       </TabNav.Root>
       <ProfileIcon />
     </Flex>

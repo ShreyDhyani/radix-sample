@@ -1,0 +1,22 @@
+.radix-theme-button {
+  /* padding-left: var(--space-2); */
+  /* padding-right: var(--space-2); */
+  background: var(--accent-9);
+  /* border-radius: var(--radius-2); */
+  /* font-size: var(--font-size-1); */
+  font-weight: var(--font-weight-medium);
+  color: var(--accent-contrast);
+  /* line-height: var(--line-height-1); */
+  letter-spacing: var(--letter-spacing-1);
+  gap: var(--space-1);
+  /* height: var(--space-5); */
+}
+
+.radix-theme-button:hover {
+  background-color: var(--accent-10);
+}
+
+.radix-theme-button:focus-visible {
+  outline: 2px solid var(--focus-8);
+  outline-offset: 2px;
+}
