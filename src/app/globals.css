@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.radix-themes {
+  --space-1: calc(10px * var(--scaling));
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
