@@ -4,7 +4,7 @@ import RadixButton from "@/components/RadixButton";
 
 export default function Page() {
   return (
-    <main className="w-full h-screen flex flex-col space-y-10">
+    <main className="w-full h-screen flex flex-col space-y-10 max-w-3xl px-4 mx-auto pt-10 pb-5">
       {/* <ScrollArea className="py-4 px-4 flex flex-col !gap-10"> */}
       {/* <Section
           size="4"

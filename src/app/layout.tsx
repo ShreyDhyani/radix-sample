@@ -30,27 +30,15 @@ export default function RootLayout({
   children: React.ReactNode;
   context: any;
 }>) {
-  const [showPanel, setShowPanel] = React.useState(false);
-
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <button
-          onClick={() => setShowPanel(!showPanel)}
-          className={
-            showPanel
-              ? "absolute rounded-full w-8 h-8 flex items-center justify-center z-10 bottom-4 right-4 border-2 border-blue-500"
-              : "absolute rounded-full w-8 h-8 flex items-center justify-center z-10 bottom-4 right-4 border-2 border-black"
-          }
-        >
-          <SunIcon color={showPanel ? "blue" : "black"} />
-        </button>
         <Theme accentColor="orange" grayColor="olive">
           <TopBar />
           {children}
-          {showPanel ? <ThemePanel /> : <></>}
+          <ThemePanel />
         </Theme>
       </body>
     </html>
