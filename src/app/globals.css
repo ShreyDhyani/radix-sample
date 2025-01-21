@@ -163,7 +163,7 @@ body {
 
       &:where(:not(.rt-variant-ghost)) {
         padding-left: var(--space-5);
-        padding-right: var(--space-6);
+        padding-right: var(--space-5);
       }
       &:where(.rt-variant-ghost) {
         gap: var(--space-2);
